@@ -1,5 +1,5 @@
 const input = document.getElementById('colorInput');
-const resetBtn = document.getElementById('resetBtn');
+
 const defaultColor = 'white';
 
 function isValidColor(color) {
@@ -16,7 +16,3 @@ input.addEventListener('input', () => {
   }
 });
 
-resetBtn.addEventListener( 'click', () => {
-  document.body.style.backgroundColor = defaultColor;
-  input.value = '';
-});
