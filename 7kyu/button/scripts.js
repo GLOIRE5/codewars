@@ -1,4 +1,5 @@
 const input = document.getElementById('colorInput');
+const resetBtn = document.getElementById('resetBtn');
 const defaultColor = 'white';
 
 function isValidColor(color) {
